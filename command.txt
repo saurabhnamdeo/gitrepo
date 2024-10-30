@@ -1,0 +1,71 @@
+ Git commands organized by topics to help you understand their usage better:
+
+1. Getting Started
+
+git init: Initialize a new Git repository.
+git clone <repository>: Clone an existing repository.
+
+2. Basic Snapshotting
+
+git add <file>: Add a file to the staging area.
+git commit -m "message": Commit changes with a message.
+git status: Show the working directory status.
+
+3. Branching and Merging
+
+git branch: List, create, or delete branches.
+git checkout <branch>: Switch to a different branch.
+git merge <branch>: Merge a branch into the current branch.
+
+4. Sharing and Updating Projects
+
+git push: Push changes to the remote repository.
+git pull: Fetch and merge changes from the remote repository.
+git fetch: Fetch changes from the remote repository without merging.
+
+5. Inspection and Comparison
+
+git log: Show the commit history.
+git diff: Show changes between commits, branches, etc.
+git show <commit>: Show various types of objects.
+
+6. Undoing Changes
+
+git reset <file>: Unstage a file.
+git revert <commit>: Create a new commit that undoes changes from a previous commit.
+git checkout -- <file>: Discard changes in the working directory.
+
+7. Stashing and Cleaning
+
+git stash: Temporarily save changes that are not ready to be committed.
+git stash pop: Apply stashed changes and remove them from the stash list.
+git clean -f: Remove untracked files from the working directory.
+
+8. Rewriting History
+
+git rebase <branch>: Reapply commits on top of another base tip.
+git cherry-pick <commit>: Apply the changes introduced by some existing commits.
+
+9. Remote Repositories
+
+git remote: Manage set of tracked repositories.
+git remote add <name> <url>: Add a new remote repository.
+git remote -v: Show remote repositories.
+
+10. Configuration
+
+git config --global user.name "name": Set the name for all repositories.
+git config --global user.email "email": Set the email for all repositories.
+git config --list: List all configuration settings.
+
+11. Advanced Commands
+
+git bisect: Use binary search to find the commit that introduced a bug.
+git tag <tagname>: Create a tag for a specific commit.
+git archive: Create an archive of files from a named tree.
+
+12. Collaboration on GitHub
+
+git fork: Create a personal copy of someone else’s repository (usually done on GitHub).
+git pull request: Propose changes to be merged into the main repository (usually done on GitHub).
+These topics and commands should give you a comprehensive overview of Git’s capabilities. If you need more detailed explanations or examples for any specific command, feel free to ask!
