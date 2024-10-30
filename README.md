@@ -1,3 +1,5 @@
+This repository for understand github
+
 …or create a new repository on the command line
 
 echo "# gitrepo" >> README.md
